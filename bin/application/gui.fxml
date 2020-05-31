@@ -7,16 +7,15 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="730.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controler">
+<Pane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="425.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controler">
    <children>
-         <ImageView fx:id="background" fitHeight="574.0" fitWidth="739.0" layoutX="-4.0">
+         <ImageView fx:id="background" fitHeight="500.0" fitWidth="425.0" layoutX="-4.0">
          <image>
             <Image url="@background.jpg" />
          </image>
       </ImageView>
-      <Button fx:id="buttonStartGame" layoutX="327.0" layoutY="526.0" mnemonicParsing="false" onAction="#buttonStartGameClicked" text="Start Game" />
-      <AnchorPane fx:id="anchorPaneGameBoard" layoutX="35.0" layoutY="116.0" prefHeight="344.0" prefWidth="659.0" />
-      <ImageView fx:id="background1" fitHeight="86.0" fitWidth="363.0" layoutX="183.0" layoutY="14.0">
+      <Button layoutX="137.0" layoutY="406.0" mnemonicParsing="false" onAction="#buttonCheckSolutionClicked" prefHeight="48.0" prefWidth="144.0" text="Check solution" />
+      <ImageView fx:id="background1" fitHeight="86.0" fitWidth="363.0" layoutX="42.0" layoutY="14.0">
          <image>
             <Image url="@Title.png" />
          </image>

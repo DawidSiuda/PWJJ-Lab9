@@ -14,7 +14,7 @@ public class Main extends Application {
 			Parent root = FXMLLoader.load(getClass().getResource("gui.fxml"));
 	        primaryStage.setTitle("Lab9");
 
-			primaryStage.setScene(new Scene(root, 739, 574));
+			primaryStage.setScene(new Scene(root, 425, 500));
 	        primaryStage.show();
 		} catch(Exception e) {
 			e.printStackTrace();
